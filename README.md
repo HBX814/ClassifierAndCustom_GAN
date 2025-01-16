@@ -29,29 +29,3 @@ To install the required dependencies, use the following commands:
 
 ```bash
 pip install tensorflow tqdm scikit-learn transformers datasets accelerate torch torchvision
----
-
-## GAN Training
-
-### Location:
-`GAN/Training.ipynb`
-
-### Overview:
-This notebook focuses on training a Generative Adversarial Network (GAN):
-- **Generator**: Produces synthetic data based on random noise.
-- **Discriminator**: Evaluates whether the input is real or synthetic.
-- **Loss Functions**: Implements Wasserstein Loss and Gradient Penalty for stable training.
-- **Training Loop**: Iteratively trains the GAN to improve synthetic data quality.
-
-### How to Run:
-1. Install dependencies: `pip install -r requirements_custom_gan.txt`.
-2. Open the notebook: `GAN/Training.ipynb`.
-3. Execute the cells to train the GAN model on your dataset.
-
-## Requirements
-
-### For GAN Training
-- `torch`
-- `torchvision`
-- `matplotlib`
-- `Pillow`
