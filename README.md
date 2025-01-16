@@ -28,7 +28,7 @@ Before running the code, ensure that the following dependencies are installed:
 To install the required dependencies, use the following commands:
 
 ```bash
-pip install tensorflow tqdm scikit-learn transformers datasets accelerate torch torchvision '''
+pip install tensorflow tqdm scikit-learn transformers datasets accelerate torch torchvision ```
 
 # FFHQ Dataset with GAN: Image Generation and Classification
 
