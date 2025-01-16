@@ -1,5 +1,10 @@
-torch
-torchvision
-matplotlib
+Python 3.x
+TensorFlow (>=2.0)
+Numpy
+Matplotlib
+OpenCV
+tqdm
 Pillow
+os
+shutil
 
