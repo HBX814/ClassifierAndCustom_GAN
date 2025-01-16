@@ -23,13 +23,6 @@ Before running the code, ensure that the following dependencies are installed:
 7. **PIL (Pillow)**: For image manipulation and resizing.
 8. **torch and torchvision**: For tensor operations and model predictions.
 
-### Installation
-
-To install the required dependencies, use the following commands:
-
-```bash
-pip install tensorflow tqdm scikit-learn transformers datasets accelerate torch torchvision ```
-
 # FFHQ Dataset with GAN: Image Generation and Classification
 
 This repository provides code for training a **Generative Adversarial Network (GAN)** using the **FFHQ dataset** and uses generated images to train a **simple CNN classifier**.
