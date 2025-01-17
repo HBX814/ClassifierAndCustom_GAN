@@ -27,6 +27,9 @@ Before running the code, ensure that the following dependencies are installed:
 
 This repository provides code for training a **Generative Adversarial Network (GAN)** using the **FFHQ dataset** and uses generated images to train a **simple CNN classifier**.
 
+### Dataset Link:
+[Visit](https://www.kaggle.com/datasets/arnaud58/flickrfaceshq-dataset-ffhq)
+
 ## Overview
 
 - **Data**: The FFHQ dataset (Flickr-Faces-HQ) is used for training the GAN. This dataset contains high-quality images of human faces.
